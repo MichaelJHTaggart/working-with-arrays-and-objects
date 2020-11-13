@@ -20,8 +20,6 @@ let product = {
 // code here
 
 
-
-
 ////////// PROBLEM 2 //////////
 
 /* Use the spread operator to create a copy of the colors array below.  Name the copy "colorsCopy" */

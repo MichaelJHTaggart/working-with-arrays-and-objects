@@ -51,6 +51,17 @@ var employees = [
 */
 
 //Code Here
+// function employeeUpdater() {
+//   for (i = 0; i < employees.length; i++) {
+//     if (employees.firstName === "Theo") {
+//       delete employees[i];
+//     }
+//     if (employees.firstName === "Lorie") {
+//       return (employees[department] = "HR");
+//     }
+//   }
+//   return employees
+// }
 
 
 
@@ -81,7 +92,7 @@ var cat = {
     {
       name: 'Grumpy',
       activities: ['be grumpy', 'eat food']
-    }, 
+    },
     {
       name: 'Lazy Bones',
       activities: ['sleep', 'pre-sleep naps']
@@ -97,8 +108,8 @@ var cat = {
 */
 
 //Code Here
-var grumpyActivity;
-var fluffy2ndFriend;
+var grumpyActivity = cat.catFriends[activities][2];
+var fluffy2ndFriend = cat.catFriends[name][2];;
 
 
 
@@ -145,12 +156,12 @@ var myCar = {
 ////////// PROBLEM 5 //////////
 
 // Do not edit the code below.
-var numsArr = [ [1, 2, 3, 4], [5, 6], [7, 8, 9, 10, 11]];
+var numsArr = [[1, 2, 3, 4], [5, 6], [7, 8, 9, 10, 11]];
 // Do not edit the code above.
 
 /*
   Above is an array of arrays. Use two for loops.
-    1. Write a function called 'looper'. 
+    1. Write a function called 'looper'.
     2. 'looper' should loop over the arrays.
     3.  If the number is odd, replace it with 'odd'.
         If the number is even, replace it with 'even'.
